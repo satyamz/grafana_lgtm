@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: trace-app
-        image: trace-demo:v4
+        image: satyamz/tempo-tracing-demo:v1
         ports:
           - containerPort: 8080
             protocol: TCP
