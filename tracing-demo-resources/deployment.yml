@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: trace-app
-  namespace: trace-demo
+  namespace: sandbox
   labels:
     app: trace-app
 spec:
